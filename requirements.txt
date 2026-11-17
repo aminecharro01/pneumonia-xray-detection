@@ -1,0 +1,7 @@
+# Dépendances de l'application Streamlit (utilisées aussi pour la mise en ligne)
+tensorflow==2.21.0
+streamlit==1.67.0
+numpy==2.4.6
+pandas==3.1.1
+pillow==13.0.0
+fpdf2==2.9.0

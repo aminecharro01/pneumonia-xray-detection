@@ -1,0 +1,18 @@
+# Environnement Python
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Dataset complet (2,4 Go) : trop lourd pour GitHub
+chest_xray/
+*.zip
+
+# Anciens modèles trop lourds (on publie model/pneumonia_model.keras, 81 Mo)
+*.h5
+
+# Base de l'historique (propre à chaque machine)
+data/
+
+# Documents personnels
+*.docx

@@ -1,0 +1,5 @@
+# Dépendances supplémentaires pour exécuter le notebook d'entraînement
+-r requirements.txt
+matplotlib
+seaborn
+scikit-learn
