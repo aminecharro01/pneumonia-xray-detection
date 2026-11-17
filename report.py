@@ -32,7 +32,7 @@ class Report(FPDF):
         self.set_text_color(*MUTED)
         self.multi_cell(
             CONTENT_W - 20, 3.6,
-            "Document généré automatiquement par un modèle de Deep Learning développé dans un cadre "
+            "Document généré automatiquement par Souffle, un modèle de Deep Learning développé dans un cadre "
             "pédagogique. Il constitue une aide à la lecture et ne remplace pas l'interprétation d'un médecin.",
         )
         self.set_xy(PAGE_W - MARGIN - 20, -19)
@@ -89,7 +89,7 @@ def build_pdf(img: Image.Image, filename, label, confidence, probability, thresh
     pdf.set_xy(MARGIN, 22.5)
     pdf.set_font("Helvetica", "", 10)
     pdf.set_text_color(*MUTED)
-    pdf.cell(120, 5, "Radiographie thoracique - aide à la détection de pneumonie")
+    pdf.cell(120, 5, "Souffle - lecture assistée des radiographies pulmonaires")
 
     pdf.set_draw_color(*LINE)
     pdf.line(MARGIN, 32, PAGE_W - MARGIN, 32)

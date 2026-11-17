@@ -1,4 +1,4 @@
-# Classification de Pneumonie par Deep Learning
+# Souffle : lecture assistée des radiographies pulmonaires
 
 Classification de radiographies thoraciques (**NORMAL** vs **PNEUMONIA**) par transfer learning (VGG19, TensorFlow/Keras), avec une application web Streamlit utilisable sur ordinateur et sur téléphone.
 

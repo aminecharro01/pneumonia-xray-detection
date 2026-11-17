@@ -16,7 +16,7 @@ from PIL import Image
 from history import clear_history, get_history, save_prediction
 from report import build_pdf
 
-st.set_page_config(page_title="Analyse de radiographie thoracique", layout="wide")
+st.set_page_config(page_title="Souffle", layout="wide")
 
 # ---------------------------------------------------------------------------
 # Constantes
@@ -243,10 +243,10 @@ def result_card(label, confidence, prob, threshold, filename, model_name):
 html("""
 <div class="topbar">
   <div class="brand">
-    <div class="brand-mark">Rx</div>
+    <div class="brand-mark">S</div>
     <div>
-      <div class="brand-name">Analyse de radiographie thoracique</div>
-      <div class="brand-sub">Détection de pneumonie par réseau de neurones convolutif</div>
+      <div class="brand-name">Souffle</div>
+      <div class="brand-sub">Lecture assistée des radiographies pulmonaires</div>
     </div>
   </div>
   <span class="tag">Prototype académique</span>
