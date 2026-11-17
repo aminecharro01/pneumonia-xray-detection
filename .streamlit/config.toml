@@ -1,5 +1,16 @@
 [theme]
-primaryColor = "#2563eb"
+base = "light"
+primaryColor = "#1f4e79"
+backgroundColor = "#f6f7f9"
+secondaryBackgroundColor = "#eceff3"
+textColor = "#1b2430"
+borderColor = "#dfe3e8"
+baseRadius = "6px"
+font = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+
+[client]
+toolbarMode = "viewer"
 
 [server]
 maxUploadSize = 20
