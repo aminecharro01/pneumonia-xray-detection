@@ -16,3 +16,6 @@ data/
 
 # Documents personnels
 *.docx
+
+# Rapport (gardé en local uniquement)
+Rapport de projet.pdf
